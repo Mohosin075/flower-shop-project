@@ -119,3 +119,32 @@
   font-weight: 500;
   line-height: 35px; /* 145.833% */
 }
+
+/* latest-deals section */
+.latest-deals {
+  background-image: url("./images/Rectangle\ 9.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 200px;
+  padding: 100px 0;
+  border-radius: 10px;
+}
+.deals-content {
+  padding: 0 200px;
+}
+.input-field{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.input-field input {
+  padding: 20px;
+  width: 70%;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  outline: none;
+}
+
