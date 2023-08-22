@@ -3,27 +3,45 @@
   font-family: "Lato", sans-serif;
 }
 /* common css */
+.container {
+  padding: 0 200px;
+}
 .btn {
   padding: 20px 40px;
   border-radius: 8px;
   background: #e55473;
   border: none;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.section-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 
 /* banner / header */
 .banner {
   background: rgba(229, 84, 115, 0.1);
-  padding: 0 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80vh;
   position: relative;
 }
 .banner-content {
   width: 50%;
+  padding: 100px 0;
 }
 .banner-img {
   width: 40%;
@@ -43,4 +61,61 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   padding: 35px 0;
+}
+
+/* featured section */
+.featured {
+  margin-top: 170px;
+}
+.featured-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.featured-card img {
+  width: 150px;
+  border-radius: 300px 300px 0px 0px;
+  padding: 100px 68px 0px 68px;
+}
+.featured-card-img1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-card-img2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.featured-card-img3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-card p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+.featured-bottom {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 120px 0;
+  padding: 70px 100px;
+  display: flex;
+  gap: 40px;
+}
+.featured-bottom-card {
+  text-align: center;
+}
+.featured-bottom-card img {
+  width: 50px;
+}
+.featured-bottom-card p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 145.833% */
 }
